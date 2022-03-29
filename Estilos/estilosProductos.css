@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    Padding:0;
+}
+html{
+    font-size:62.5%;
+}
+
+.header img{
+    width:50px;
+    height:50px;
+}
+.header{
+    background-color: #ffdfda;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:black;
+    border: 3px solid black;
+    Display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+ .header h1{
+    font-size:35px;
+}  
+
+.header h2{
+    font-size:30px;
+}
+
+
+.nav{
+    margin:10px;
+    padding:10px;
+}
+
+.navMenu{
+    Display:flex;
+    padding: 15px;
+    justify-content:space-between;
+}
+
+.main h2{
+    color:black
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    font-size:20px;
+    padding:0 10px;
+}
+.menu li a{
+    text-decoration:none;
+
+}
+
+.submenu{
+    display:none;
+    position:absolute;
+}
+
+.submenu li{
+    display:block;
+    Background-color: #FEC89A;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+
+.header img{
+    width:50px;
+    height:50px;
+}
+
+.main{
+    background-color: #fde2de;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(31, 30, 30);
+    font-size:20px;
+    border: 3px solid black;
+}
+
+.main h2{
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+}
+
+.main img{
+    width:100px;
+    height:100px;
+}
+.producto1{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:center;
+}
+
+.producto2{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:center;
+}
+.producto3{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:center;
+}
+
+.main{
+    Display:grid;
+    Grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    Grid-template-areas:
+    "productosA productosB"
+    "productosA productosB";
+}
+
+.main .productosA{
+    grid-area: productosA;
+
+}
+
+.main .productosB{
+    grid-area: productosB;
+}
+
+.footer{
+    background-color: #FEC89A;
+    font-size:20px;
+    padding:25px;
+    border: solid 4px Black;
+}
+
+@media screen and (max-width: 720px){
+    
+    .header{
+    background-color: #E63946;
+
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:black;
+    border: 3px solid black;
+    Display: flex;
+    flex-direction:column;;
+    justify-content:center;
+    align-items:center;
+    }
+
+    .header .navMenu .menu{
+
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: none;
+        Display: flex;
+        flex-direction:column;
+        justify-content:center;
+
+    }
+
+    .main .productosA{
+        background-color: #A8DADC;
+        font-size:15px;
+    
+    }
+    
+    .main .productosB{
+        background-color: #F1FAEE;
+        font-size:15px;
+        border-left: solid black 2px;
+    }
+
+
+    .footer{
+        font-size: 10px;
+        display:flex;
+        justify-content: center;
+    }
+
+}
