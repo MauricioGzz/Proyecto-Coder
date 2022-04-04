@@ -6,20 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Icon" href="Imagenes/Icono.ico">
     <title>Tolura</title>
-        <link
+        <!-- <link
           rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-          <link rel="stylesheet" href="Estilos/Estilo.css">
-    <!-- <link rel-="stylesheet" href="Estilos/Boots/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.min.js>"></script> -->
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+        <link rel="stylesheet" href="Estilos/Estilo.css">
+        <link rel="stylesheet" href="Estilos/bootstrap.min.css">
+        <script src="js/bootstrap.min.js>"></script> 
 </head>
 <body>
+
 <header class="header">
     <img src="https://via.placeholder.com/100" alt="Foto del Logo" Title="Foto del Logo" >
     <h1 class="animate__animated animate__bounce">Tolura</h1>
 
-
-    <nav class="navMenu">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ffdfda">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/About.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- <nav class="navMenu ">
         <ul class="menu" >
             <li><a href=index.html>Inicio</a></li>
             <li><a href=pages/Contacto.html>Contacto</a></li>
@@ -33,8 +63,8 @@
             <li><a href=pages/About.html>Sobre nosotros</a></li>
             <li><a href=pages/Productos.html>Productos</a></li>
         </ul>
-    </nav>
-    <nav class="nav">
+    </nav> -->
+    <nav class="nav" style="background-color: #ffdfda">
         <form id="form" class="buscador">
             <input type="search" placeholder="Buscar">
             <button>Buscar</button>
@@ -45,37 +75,74 @@
 </header>
 
 
-<img class="foto" src="https://via.placeholder.com/720x250" alt="imagen que cambia" Title="imagen que cambia" >
+
+<div id="carouselExampleControls" class="carousel slide foto imagen" data-bs-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://via.placeholder.com/720x250" class="d-block w-100" alt="placeholder =720">
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/150/0000FF/808080 
+
+        C/O https://placeholder.com/" class="d-block w-100" alt="Placeholder">
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/150/FF0000/FFFFFF?
+
+        C/O https://placeholder.com/" class="d-block w-100" alt="Placeholder">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 
 <main class="main">
+    <div class="container-fluid">
+    <div class="row">
 
-    <div class="inicio">
+        <div class="inicio col-md-6 col-sm-12" >
     <h2  class="animate__animated animate__swing" >Inicio</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut unde maxime ratione? Alias molestiae odit perferendis deleniti asperiores ea, dolores sequi, eum voluptatibus velit sunt laudantium numquam, laboriosam laborum odio Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum minima architecto esse libero ducimus nam. Aperiam deleniti provident dolore earum ratione vero eius tempora placeat praesentium quae, voluptatibus, eos iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit deleniti nostrum at qui distinctio adipisci magnam possimus, laudantium dolore, consectetur, laborum hic iusto esse. Blanditiis porro mollitia temporibus minus accusamus.</p>
-    </div>
-<!-- <div class="imgInicio">
-    <img src="https://via.placeholder.com/200" alt="Productos Inicio1" Title="Productos Inicio1">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
-</div> -->
-    <h3 class="animate__animated animate__wobble">Top Productos</h3>
-    <div class="topProductos">
-    <img src="https://via.placeholder.com/150" alt="Top Productos1" Title="Top Productos1">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
-    <img src="https://via.placeholder.com/150"alt="Top Productos2" Title="Top Productos2">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
-    <img src="https://via.placeholder.com/150" alt="Producto en Descuento1" Title="Producto en Descuento1">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
+            </div>
 
-    </div>
 
-    <div class="productoDescuento">
-    <h3 class="animate__animated animate__heartBeat">Productos en Descuento</h3>
-    <span style="display:inline-block; width: YOURWIDTH;"></span>
+
+
+<div class="col-md-6 col-sm-12">
+<div class="productoDescuento">
+    
+
+
+    <h3 class="animate__animated animate__heartBeat" >Productos en Descuento</h3>
     <img src="https://via.placeholder.com/150" alt="Producto en Descuento1" Title="Producto en Descuento1">
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo. lorem</p>
     <img src="https://via.placeholder.com/150" alt="Producto en Descuento2" Title="Producto en Descuento2">
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
+    
     </div>
+</div>
+</div>
+</div>
+
+
+<div class="topProductos">
+    <h3 class="animate__animated animate__wobble">Top Productos</h3>
+
+    <img src="https://via.placeholder.com/150" alt="Top Productos1" Title="Top Productos1">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
+    <img src="https://via.placeholder.com/150"alt="Top Productos2" Title="Top Productos2">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
+
+
+    </div>
+
 </main>
 
 <Footer class="footer">
@@ -89,5 +156,6 @@
         </ul>
     </nav>
 </Footer>
+
 </body>
 </html>

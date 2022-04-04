@@ -7,6 +7,9 @@
     <title>Tolura Productos</title>
     <link rel="Icon" href="../Imagenes/Icono.ico">
     <link rel="stylesheet" href="../Estilos/estilosProductos.css">
+
+    <link rel="stylesheet" href="../Estilos/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js>"></script> 
 </head>
 <body>
     <header class="header">
@@ -14,7 +17,37 @@
         <h1>Tolura</h1>
     
     
-        <nav class="navMenu">
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ffdfda">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="About.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav class="navMenu">
             <ul class="menu" >
                 <li><a href=../index.html>Inicio</a></li>
                 <li><a href=Contacto.html>Contacto</a></li>
@@ -36,13 +69,15 @@
             </form>
         </nav>
     
-    
+     -->
     </header>
 
 
 <main class="main">
+    <div class="container-fluid">
+        <div class="row">
     <!-- Productos A -->
-    <div class="productosA">
+    <div class="productosA  col-md-6 col-sm-12">
     <h2>Productos A</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quia voluptate eius doloribus ad aliquid, hic, maxime libero tenetur, labore cupiditate ipsam! Iste cum fugit repellendus id quibusdam, qui voluptate.</p>
 
@@ -64,7 +99,7 @@
 </div>
 
     <!-- Productos B -->
-    <div class="productosB">
+    <div class="productosB  col-md-6 col-sm-12">
         <h2>Productos B</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quia voluptate eius doloribus ad aliquid, hic, maxime libero tenetur, labore cupiditate ipsam! Iste cum fugit repellendus id quibusdam, qui voluptate.</p>
 
@@ -81,6 +116,8 @@
         <div class="producto3">
             <img src="../Imagenes/Producto3.png"alt="Foto de Producto3" title="Foto de Producto3"width="200px" height="400px">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quia voluptate eius doloribus ad aliquid, hic, maxime libero tenetur, labore cupiditate ipsam! Iste cum fugit repellendus id quibusdam, qui voluptate.</p>
+        </div>
+    </div>
         </div>
 </main>
 

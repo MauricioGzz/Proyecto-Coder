@@ -87,19 +87,18 @@ html{
 
 }
 
-
-.main .inicio{
-    background-image: linear-gradient(to left, orange,yellow);
-    border: black solid 2px;
-
+.main{
+    Display:flex;
+    Flex-wrap:wrap;
 }
+
 .main h2{
     font-size:45px;
     display:flex;
     justify-content: center;
 }
 
-.main .topProductos h3{
+ .main .topProductos h3{
     font-family:Arial, Helvetica, sans-serif;
     font-size:45px;
     margin:10px;
@@ -119,7 +118,7 @@ html{
         width: 50%;
       
 }
-.main{
+/* .main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .1fr .2fr;
@@ -127,7 +126,7 @@ html{
     "inicio productoDescuento"
     'tituloDes tituloDes'
     "topProductos topProductos";
-}
+} */
 
 .mainParrafo1{
     grid-area: mainparrafo1;
@@ -153,6 +152,13 @@ html{
     Justify-content:center;
     font-size:55px;
 }
+.productosDescuento{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:45px;
+    margin:10px;
+    Display:flex;
+    Justify-content: center;
+}
 
 .main .topPro{
     display:flex;
@@ -167,9 +173,13 @@ html{
     border: solid 4px black;
 }
 
+.imagen{
+    background-color:#E63946;
+}
+
 @media screen and (max-width: 720px){
     
-    .header{
+    /* .header{
     background-color: #E63946;
     font-family:'Times New Roman', Times, serif;
     text-decoration: none;
@@ -196,13 +206,14 @@ html{
         Justify-content:center;
         flex-wrap:wrap;
         font-size:20px;
-    }
+    } */
     .main .topProductos{
-        background-color: #F1FAEE;
         display:flex;
         flex-wrap:wrap;
+        Justify-content:center;
+        font-size:20px;
     }
-    .productoDescuento{
+    /* .productoDescuento{
         background-color: #A8DADC;
     }
     .productoDescuento h3{
@@ -219,9 +230,8 @@ html{
     .main .inicio {
         background-color: #457B9D;
 
-    }
+    } */
     .footer{
         font-size: 10px;
     }
 }
-
