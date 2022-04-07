@@ -21,11 +21,14 @@ html{
 }
 
 .header{
-    background-color: #FAE1DD;
+    background-color: #CED4DA;
     font-family:'Times New Roman', Times, serif;
     text-decoration: none;
     color:black;
     border: 3px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
 }
 
 .header h1{
@@ -42,7 +45,7 @@ html{
 
 .submenu li{
     display:block;
-    Background-color: #FEC89A;
+    Background-color: #CED4DA;
 }
 
 .menu li:hover ul{
@@ -55,7 +58,7 @@ html{
 }
 
 .main{
-    background-color: #ECE4DB;
+    background-color: #E9ECEF;
     border: 3px solid black;
     font-size:20px;
     font-family:'Times New Roman', Times, serif;
@@ -90,10 +93,9 @@ html{
 }
 
 .footer{
-    background-image:url("https://mdn.mozillademos.org/files/7693/catfront.png");
-    background-repeat:no-repeat;
-    background-color: #FEC89A;
+
+    background-color: #ADB5BD;
     font-size:20px;
     padding:25px;
-    border: solid 4px red;
+    border: solid 4px black;
 }
