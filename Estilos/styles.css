@@ -1,0 +1,126 @@
+.header {
+  background-color: #DEE2E6;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  Display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .header img {
+    width: 50px;
+    height: 50px; }
+  .header h1 {
+    font-size: 35px; }
+  .header h2 {
+    font-size: 30px; }
+
+.nav {
+  margin: 10px;
+  padding: 10px; }
+
+.navMenu {
+  Display: flex;
+  padding: 15px;
+  justify-content: space-between; }
+
+.topProductos h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  Display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px; }
+
+.topProductos .productosTop1 {
+  font-family: Arial, Helvetica, sans-serif;
+  Display: flex;
+  Flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: baseline;
+  margin: 10px;
+  padding: 10px;
+  overflow-y: scroll; }
+
+.main {
+  background-color: #F8F9FA;
+  color: black;
+  border: 1px solid black; }
+  .main .inicio .imgInicio {
+    Background-color: #F8F9FA;
+    Display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .main h2 {
+    font-size: 45px;
+    display: flex;
+    justify-content: center; }
+  .main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px; }
+
+.productoDescuento h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  Display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px; }
+
+.productosDescuento1 {
+  font-family: Arial, Helvetica, sans-serif;
+  Display: flex;
+  Flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: baseline;
+  margin: 10px;
+  padding: 10px; }
+
+.vistoReciente h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  Display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px; }
+
+.vistoReciente .vistoReciente1 {
+  font-family: Arial, Helvetica, sans-serif;
+  Display: flex;
+  Flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: baseline;
+  margin: 10px;
+  padding: 10px; }
+
+.footer {
+  background-color: #CED4DA;
+  font-size: 20px;
+  padding: 25px;
+  border: solid 4px black; }
+
+@media screen and (max-width: 720px) {
+  .footer {
+    font-size: 10px; }
+  .topProductos {
+    border-top: none; }
+  .productoDescuento {
+    border-left: none; } }
+
+* {
+  margin: 0;
+  Padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+.foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }

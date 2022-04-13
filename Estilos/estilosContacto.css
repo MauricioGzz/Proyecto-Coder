@@ -92,6 +92,16 @@ html{
     font-family:'Times New Roman', Times, serif;
 }
 
+.top-buffer { 
+    margin-top:20px;
+ }
+ .copyContacto { 
+    margin-bottom:10px;
+ }
+ .parrafoContacto { 
+    margin-top:20px;
+ }
+
 .footer{
 
     background-color: #ADB5BD;
