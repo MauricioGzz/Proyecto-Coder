@@ -7,17 +7,14 @@
     <title>Tolura Contacto</title>
     <link rel="Icon" href="../Imagenes/Icono.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="../Estilos/estilosContacto.css">
-
     <link rel="stylesheet" href="../Estilos/bootstrap.min.css">
     <script src="../js/bootstrap.min.js>"></script> 
-    
+    <link rel="stylesheet" href="../Estilos/estilosContacto.css">
 </head>
 <body>
     <header class="header">
-        <img src="../Imagenes/Logo.png" alt="Foto del Logo" Title="Foto del Logo">
         <h1>Tolura</h1>
-        <nav class= "navbar navbar-expand-lg navbar-light " style="background-color: #CED4DA">
+        <nav class= "navbar navbar-expand-lg navbar-light " style="background-color: #CED4DA; font-size: 20px">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,28 +44,25 @@
               </div>
             </div>
           </nav>
-          <nav class="nav" style="background-color: #CED4DA">
-            <form id="form" class="buscador">
-                <input type="search" placeholder="Buscar">
-                <button>Buscar</button>
-            </form>
-        </nav>
     </header>
 
-<main class="main">
+<main class="main container-fluid">
     <h2>Contacto</h2>
-    <h4>Favor de dejar la informacion para contactar</h4>
-    <label for="nombre">Ingrese su nombre:</label>
+    <h4 class="copyContacto">Favor de dejar la informacion para contactar</h4>
+    <div class="row">
+    <div class="col-md-6 ">
+    <label for="nombre">Nombre:</label>
     <input type="text" placeholder="Ingrese su nombre" >
-
-    <label for="nombre">Ingrese su correo:</label>
+  </div>
+  <div class="col-md-6 ">
+    <label for="nombre"> Correo :</label>
     <input type="email"  placeholder="Ingrese su correo">
-
+  </div>
+</div>
+<div class="row top-buffer">
     <input type="submit" value="enviar formulario">
-
-    <img src="../Imagenes/Contacto.png"alt="Foto de Contacto" title="Foto de contacto">
-
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quia voluptate eius doloribus ad aliquid, hic, maxime libero tenetur, labore cupiditate ipsam! Iste cum fugit repellendus id quibusdam, qui voluptate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti at earum asperiores neque sapiente? Incidunt debitis nesciunt autem obcaecati iste ab laboriosam iusto voluptatibus eum, sapiente, eveniet modi rerum saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus esse eligendi dicta tempore exercitationem earum accusantium neque qui consequatur ex fugit hic magnam officia repellendus maiores, nesciunt numquam vitae. Exercitationem.</p>
+  </div>
+    <p class="parrafoContacto">Favor de dejar su inform de contacto para ponernos en contacto. Las razones para poner en contacto es si el producto llego en malas condiciones, tienes dudas o preguntas con respecto a los productos o si requieres ayuda para completar la compr</p>
 </main>
 
 <Footer class="footer">
@@ -82,5 +76,7 @@
         </ul>
     </nav>
 </Footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

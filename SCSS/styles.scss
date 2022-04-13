@@ -1,0 +1,24 @@
+@import "Variables";
+@import "Header";
+@import "Top";
+@import "Main";
+@import "Descuento";
+@import "Recien";
+@import "Footer";
+@import "mediaqueris";
+
+*{
+    margin: 0;
+    Padding:0;
+}
+html{
+    font-size:62.5%;
+}
+
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+

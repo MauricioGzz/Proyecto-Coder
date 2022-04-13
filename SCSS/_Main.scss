@@ -1,0 +1,22 @@
+.main{
+    background-color:$ColorSec;
+    color:black;
+    border: 1px solid black;
+    .inicio .imgInicio{
+        Background-color: $ColorSec;
+        Display:flex;
+        align-items: flex-start;
+        flex-direction:column; 
+        flex-wrap:wrap;
+    }
+    h2{
+        font-size:45px;
+        display:flex;
+        justify-content: center;
+    }
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:15px;
+        margin:10px;
+    }
+}
