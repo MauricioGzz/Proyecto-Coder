@@ -155,10 +155,89 @@ html{
     padding:25px;
     border: solid 4px black;
 }
+ /* -----------------CONTACTO----------------- */
+.mainContacto h2{
+    font-size:45px;
+    font-family:'Times New Roman', Times, serif;
+    Display:flex;
+    justify-content: center;
+}
+.mainContacto h4{
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.mainContacto p{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.mainContacto label{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top-buffer { 
+    margin-top:20px;
+ }
+ .copyContacto { 
+    margin-bottom:10px;
+ }
+ .parrafoContacto { 
+    margin-top:20px;
+ }
+
+ /* -----------------Servicios----------------- */
+
+ .main .imgServicio{
+    width:100px;
+    height:100px;
+
+}
 
 
+ /* -----------------About----------------- */
+.section{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:justify;
+    border-left: solid 2px black;
+}
+ /* -----------------Productos----------------- */
+.productos{
+    font-family:Arial, Helvetica, sans-serif;
+    Display: flex;
+    Flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-self:baseline;
+    margin:10px;
+    padding:10px;
+}
+.mainProducto div{
+    padding:20px;
+}
+.mainProducto{
+    background-color: #F8F9FA;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(31, 30, 30);
+    font-size:20px;
+    border: 3px solid black;
+}
 
-@media screen and (max-width: 720px){
+.mainProducto h2{
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+}
+
+.mainProducto img{
+    width:100px;
+    height:100px;
+}
+
+@media screen and (max-width: 740px){
     
     /* .header{
     background-color: #E63946;
@@ -222,6 +301,9 @@ html{
         border-top: none;
     }
     .productoDescuento{
+        border-left: none;
+    }
+    .section{
         border-left: none;
     }
 }

@@ -8,6 +8,7 @@ html{
 
 
 
+
 .header{
     background-color: #CED4DA;
     font-family:'Times New Roman', Times, serif;
@@ -28,19 +29,6 @@ html{
     Display:block;
 } 
 
-.submenu{
-    display:none;
-    position:absolute;
-}
-
-.submenu li{
-    display:block;
-    Background-color: #FEC89A;
-}
-
-.menu li:hover ul{
-    display: block;
-}
 
 .header img{
     width:50px;
@@ -62,7 +50,7 @@ html{
     justify-content: center;
 } */
 
-.main img{
+.main .imgServicio{
     width:100px;
     height:100px;
 
