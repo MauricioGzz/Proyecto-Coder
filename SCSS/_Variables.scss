@@ -1,3 +1,22 @@
 $ColorPri:#DEE2E6;
 $ColorSec:#F8F9FA;
 $Colorter:#CED4DA;
+
+$TipoP:(
+    ffam:Arial,
+    fsize:15px,
+    m:10px,
+);
+
+.main {
+    background-color: $ColorSec;
+    color: black;
+    border: 1px solid black; 
+}
+
+@mixin Flex($Flex, $flex-wrap, $Justify-content, $align-items){
+    display:$Flex;
+    Flex-wrap:$flex-wrap;
+    Justify-content:$Justify-content;
+    align-items:$align-items;
+}
