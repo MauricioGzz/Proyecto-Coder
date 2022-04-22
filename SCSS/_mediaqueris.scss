@@ -1,7 +1,7 @@
-@media screen and (max-width: 720px){
+@media screen and (min-width: 720px){
 
     .footer{
-        font-size: 10px;
+        font-size: 20px;
         
     }
 
@@ -11,4 +11,57 @@
     .productoDescuento{
         border-left: none;
     }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container-fluid{
+    .productos{
+        font-family:Arial, Helvetica, sans-serif;
+        Display: flex;
+        Flex-direction: column;
+        flex-wrap: no;
+        justify-content:flex-start;
+        align-self:baseline;
+        margin:10px;
+        padding:10px;
+    }
+}
+.topProductos{
+
+    h3{
+    font-family:Arial, Helvetica, sans-serif;
+    Display:block;
+    text-align:center;
+    font-size:40px;
+    margin:10px;;
+    }
+    .productosTop1{
+        @include Flex(Flex, wrap, flex-start, flex-start);
+        font-family:Arial, Helvetica, sans-serif;
+        flex-direction: column;
+        margin:10px;
+        padding:10px;
+    }
+}
+.productoDescuento {
+    h3{
+    font-family:Arial, Helvetica, sans-serif;
+    Display:block;
+    text-align:center;
+    font-size:40px;
+    margin:10px;
+    }
+}
+.productosDescuento1{
+    font-family:Arial, Helvetica, sans-serif;
+    Display: flex;
+    Flex-direction: Column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-self:baseline;
+    margin:10px;
+    padding:10px;
+}
 }
