@@ -1,10 +1,10 @@
 .main {
-  background-color: #F8F9FA;
+  background-color: #eed291;
   color: black;
   border: 1px solid black; }
 
 .header {
-  background-color: #DEE2E6;
+  background-color: #f94144;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
   color: black;
@@ -44,15 +44,14 @@
   font-family: Arial, Helvetica, sans-serif;
   align-self: baseline;
   margin: 10px;
-  padding: 10px;
-  overflow-y: scroll; }
+  padding: 10px; }
 
 .main .inicio .imgInicio {
   display: Flex;
   Flex-wrap: wrap;
   Justify-content: row;
   align-items: flex-start;
-  Background-color: #F8F9FA; }
+  Background-color: #eed291; }
 
 .main h2 {
   font-size: 45px;
@@ -62,6 +61,16 @@
 .main p {
   font-size: 15px;
   margin: 10px; }
+
+.main .foto1 img {
+  display: Flex;
+  Flex-wrap: wrap;
+  Justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+  width: 150px;
+  padding: 5px; }
 
 .productoDescuento h3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -100,7 +109,7 @@
   padding: 10px; }
 
 .footer {
-  background-color: #CED4DA;
+  background-color: #936b3a;
   font-size: 20px;
   padding: 25px;
   border: solid 4px black; }
@@ -113,12 +122,45 @@
   .productoDescuento {
     border-left: none; } }
 
+.mainContacto h2 {
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  Display: flex;
+  justify-content: center; }
+
+.mainContacto h4 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.mainContacto p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.mainContacto label {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.top-buffer {
+  margin-top: 20px; }
+
+.copyContacto {
+  margin-bottom: 10px; }
+
+.parrafoContacto {
+  margin-top: 20px; }
+
 * {
   margin: 0;
   Padding: 0; }
 
 html {
   font-size: 62.5%; }
+
+.foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
 
 .foto {
   display: block;
