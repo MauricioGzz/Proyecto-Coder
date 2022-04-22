@@ -6,7 +6,11 @@
 @import "Recien";
 @import "Footer";
 @import "mediaqueris";
-@import "Contacto.scss";
+@import "Contacto";
+@import "Contacto";
+@import "Servicios";
+@import "About";
+@import "Productos";
 
 *{
     margin: 0;
@@ -20,14 +24,10 @@ html{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
 }
-.foto{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
+
 
 
 
