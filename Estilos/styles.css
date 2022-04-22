@@ -149,33 +149,6 @@
 .parrafoContacto {
   margin-top: 20px; }
 
-.mainContacto h2 {
-  font-size: 45px;
-  font-family: 'Times New Roman', Times, serif;
-  Display: flex;
-  justify-content: center; }
-
-.mainContacto h4 {
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif; }
-
-.mainContacto p {
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif; }
-
-.mainContacto label {
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif; }
-
-.top-buffer {
-  margin-top: 20px; }
-
-.copyContacto {
-  margin-bottom: 10px; }
-
-.parrafoContacto {
-  margin-top: 20px; }
-
 .main .imgServicio {
   width: 100px;
   height: 100px; }
