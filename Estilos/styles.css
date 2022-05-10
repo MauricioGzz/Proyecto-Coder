@@ -112,7 +112,9 @@
   background-color: #936b3a;
   font-size: 20px;
   padding: 25px;
-  border: solid 4px black; }
+  border: solid 4px black;
+  text-decoration: none;
+  color: white; }
 
 @media screen and (min-width: 720px) {
   .footer {
@@ -120,7 +122,12 @@
   .topProductos {
     border-top: none; }
   .productoDescuento {
-    border-left: none; } }
+    border-left: none; }
+  .foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; } }
 
 @media only screen and (max-width: 768px) {
   .container-fluid .productos {
@@ -162,7 +169,16 @@
     align-items: flex-start;
     align-self: baseline;
     margin: 10px;
-    padding: 10px; } }
+    padding: 10px; }
+  .foto1 img {
+    display: Flex;
+    Flex-wrap: wrap;
+    Justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 50px;
+    padding: 5px; } }
 
 .mainContacto h2 {
   font-size: 45px;
@@ -191,15 +207,34 @@
 .parrafoContacto {
   margin-top: 20px; }
 
+section div .fotoContacto {
+  height: 85%;
+  width: 80%;
+  Display: flex;
+  Flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+  Padding: 10px; }
+
 .main .imgServicio {
   width: 100px;
   height: 100px; }
 
-.section {
+.main .Servicioimg div img {
+  height: 150px;
+  width: 200px;
+  Display: flex;
+  Flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+  Padding: 10px; }
+
+p {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
-  text-align: justify;
-  border-left: solid 2px black; }
+  text-align: justify; }
 
 .main img {
   width: 100px;
@@ -230,4 +265,12 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%; }
+  width: 93%; }
+
+.fondoNav {
+  Background-color: #323131; }
+
+.navb {
+  background-color: #f94144;
+  font-size: 25px;
+  color: white; }

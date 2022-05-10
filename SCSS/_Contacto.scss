@@ -17,6 +17,7 @@
         font-size:20px;
         font-family:'Times New Roman', Times, serif;
     }
+
 }
 .top-buffer { 
     margin-top:20px;
@@ -27,3 +28,18 @@
  .parrafoContacto { 
     margin-top:20px;
  }
+ section{
+    div{
+ .fotoContacto{
+    height:85%; 
+    width:80%;
+    Display: flex;
+    Flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 10px;
+    Padding: 10px;
+
+}
+}
+}
